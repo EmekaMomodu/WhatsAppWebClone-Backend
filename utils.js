@@ -2,8 +2,7 @@ const { sentences } = require("./database");
 
 const getRandomSentence = () => {
 	const randomIndex = Math.floor(Math.random() * sentences.length);
-	const sentence = sentences[randomIndex];
-	return sentence;
+	return sentences[randomIndex];
 };
 
 function getResponseInterval(min, max) {
