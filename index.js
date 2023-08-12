@@ -1,5 +1,5 @@
 const express = require("express");
-const { getRandomSentence, getResponseInterval } = require("./utils");
+const { getRandomSentence, getResponseInterval, getRandomSentenceByUser } = require("./utils");
 
 const PORT = process.env.PORT || 5000;
 const app = express();
@@ -16,14 +16,14 @@ io.on("connection", (socket) => {
 	socket.on("fetch_response", (data) => {
 		const { userId } = data;
 		const responseInterval = getResponseInterval(1000, 4000);
-
+		console.log(`userId: ${userId}`)
 		setTimeout(() => {
 			socket.emit("start_typing", { userId });
 
 			setTimeout(() => {
 				socket.emit("stop_typing", { userId });
 				socket.emit("fetch_response", {
-					response: getRandomSentence(),
+					response: getRandomSentenceByUser(userId),
 					userId,
 				});
 			}, responseInterval);
