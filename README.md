@@ -1,6 +1,6 @@
 # Whatsapp Web Clone Backend
 
-This is a backend service that implements WebSocket protocol to communicate with the [Whatsapp Web Clone UI](https://github.com/KarenOk/whatsapp-web-clone) I previously built.
+This is a backend service that implements WebSocket protocol to communicate with the [Whatsapp Web Clone UI](https://github.com/EmekaMomodu/WhatsAppWebClone).
 
 Built using Express and Socket.IO
 
@@ -8,4 +8,4 @@ Built using Express and Socket.IO
 
 - Install dependencies with the command `npm install`
 - Start the server with the command `npm run start`
-- This application should start running on `http://localhost:5000/`. Run the [Whatsapp Web Clone UI](https://github.com/KarenOk/whatsapp-web-clone#readme) together with this service to see it in action.
+- This application should start running on `http://localhost:5000/`. Run the [Whatsapp Web Clone UI](https://github.com/EmekaMomodu/WhatsAppWebClone#readme) together with this service to see it in action.
