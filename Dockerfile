@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:16
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -16,4 +16,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 5000
-CMD [ "node", "index.js" ]
+CMD [ "npm", "start" ]
