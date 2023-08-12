@@ -8,7 +8,7 @@
     "devStart": "nodemon index",
     "start": "node index"
   },
-  "author": "Karen Okonkwo",
+  "author": "Emeka Momodu",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
