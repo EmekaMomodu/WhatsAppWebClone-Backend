@@ -52,6 +52,36 @@ const sentences = [
 const USERS = [
     {
         id: 1,
+        name: "Emeka Momodu",
+        sentences: [
+            "Brevity is the soul of wit",
+            "Sleep if for the weak",
+            "Pretty much",
+            "hmm hmm",
+            "Mad mad",
+            "Word Word",
+            "A minute's success pays the failure of years.",
+            "Before I got married I had six theories about bringing up children; now I have six children and no theories.",
+            "The movies are the only business where you can go out front and applaud yourself.",
+            "Humor is our way of defending ourselves from life's absurdities by thinking absurdly about them.",
+            "Think like a wise man but communicate in the language of the people.",
+            "Dreams are postcards from our subconscious, inner self to outer self, right brain trying to cross that moat to the left. Too often they come back unread: \"return to sender, addressee unknown.\" That's a shame because it's a whole other world out there--or in here depending on your point of view.",
+            "I belong to no organized party. I am a Democrat.",
+            "Besides the noble art of getting things done, there is a nobler art of leaving things undone. The wisdom of life consists in the elimination of nonessentials.",
+            "I never teach my pupils. I only attempt to provide the conditions in which they can learn.",
+            "Never fear the want of business. A man who qualifies himself well for his calling, never fails of employment.",
+            "I only know two pieces; one is 'Clair de Lune' and the other one isn't.",
+            "Imagination is the one weapon in the war against reality.",
+            "That you may retain your self-respect, it is better to displease the people by doing what you know is right, than to temporarily please them by doing what you know is wrong.",
+            "When you come to a fork in the road, take it.",
+            "Those who believe in telekinetics, raise my hand",
+            "A child becomes an adult when he realizes that he has a right not only to be right but also to be wrong.",
+            "Every time you state what you want or believe, you're the first to hear it. It's a message to both you and others about what you think is possible. Don't put a ceiling on yourself.",
+            "The great thing in this world is not so much where you stand, as in what direction you are moving."
+        ]
+    },
+    {
+        id: 2,
         name: "Harry Potter",
         sentences: [
             "Everyone thinks I'm special ... All those people in the Leaky Cauldron, Professor Quirrell, Mr. Ollivander ... But I don't know anything about magic at all.",
@@ -91,7 +121,7 @@ const USERS = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         name: "Albus Dumbledore",
         sentences: [
             "Words are, in my not-so-humble opinion, our most inexhaustible source of magic. Capable of both inflicting injury, and remedying it.",
@@ -132,7 +162,7 @@ const USERS = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         name: "Hermione Granger",
         sentences: [
             "Books! And cleverness! There are more important things! — Friendship! And Bravery!",
@@ -182,7 +212,7 @@ const USERS = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         name: "Ron Weasley",
         sentences: [
             "Lockhart’ll sign anything if it stands still long enough.",
@@ -212,7 +242,7 @@ const USERS = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         name: "Rubeus Hagrid",
         sentences: [
             "Ah, go boil yer heads, both of yeh. Harry—yer a wizard.",
@@ -245,7 +275,7 @@ const USERS = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         name: "Severus Snape",
         sentences: [
             "The Dark Arts are many, varied, ever-changing, and eternal. Fighting them is like fighting a many-headed monster, which, each time a neck is severed, sprouts a head even fiercer and cleverer than before. You are fighting that which is unfixed, mutating, indestructible.",
@@ -288,7 +318,7 @@ const USERS = [
         ]
     },
     {
-        id: 7,
+        id: 8,
         name: "Lord Voldemort",
         sentences: [
             "Surely you didn’t think I was going to keep my filthy Muggle father’s name? No. I fashioned myself a new name, a name I knew wizards everywhere would one day fear to speak, when I became the greatest sorcerer in the world!",
@@ -317,37 +347,7 @@ const USERS = [
             "Pick up your wand, Potter! You've been taught how to duel, I presume. First, we bow to each other... Dumbledore wouldn't want you to forget your manners, would he?",
             "And here we have six missing Death Eaters... three dead in my service. One, too cowardly to return... he will pay. One, who I believe has left me for ever... he will be killed, of course... and one who remains my most faithful servant, and who has already re-entered my service.”"
         ]
-    },
-    {
-        id: 8,
-        name: "Emeka Momodu",
-        sentences: [
-            "Brevity is the soul of wit",
-            "Sleep if for the weak",
-            "Pretty much",
-            "hmm hmm",
-            "Mad mad",
-            "Word Word",
-            "A minute's success pays the failure of years.",
-            "Before I got married I had six theories about bringing up children; now I have six children and no theories.",
-            "The movies are the only business where you can go out front and applaud yourself.",
-            "Humor is our way of defending ourselves from life's absurdities by thinking absurdly about them.",
-            "Think like a wise man but communicate in the language of the people.",
-            "Dreams are postcards from our subconscious, inner self to outer self, right brain trying to cross that moat to the left. Too often they come back unread: \"return to sender, addressee unknown.\" That's a shame because it's a whole other world out there--or in here depending on your point of view.",
-            "I belong to no organized party. I am a Democrat.",
-            "Besides the noble art of getting things done, there is a nobler art of leaving things undone. The wisdom of life consists in the elimination of nonessentials.",
-            "I never teach my pupils. I only attempt to provide the conditions in which they can learn.",
-            "Never fear the want of business. A man who qualifies himself well for his calling, never fails of employment.",
-            "I only know two pieces; one is 'Clair de Lune' and the other one isn't.",
-            "Imagination is the one weapon in the war against reality.",
-            "That you may retain your self-respect, it is better to displease the people by doing what you know is right, than to temporarily please them by doing what you know is wrong.",
-            "When you come to a fork in the road, take it.",
-            "Those who believe in telekinetics, raise my hand",
-            "A child becomes an adult when he realizes that he has a right not only to be right but also to be wrong.",
-            "Every time you state what you want or believe, you're the first to hear it. It's a message to both you and others about what you think is possible. Don't put a ceiling on yourself.",
-            "The great thing in this world is not so much where you stand, as in what direction you are moving."
-        ]
-    },
+    }
 ]
 
 module.exports = {sentences, USERS};

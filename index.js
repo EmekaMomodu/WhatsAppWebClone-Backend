@@ -15,15 +15,17 @@ app.get("/", (req, res) => {
 io.on("connection", (socket) => {
 	socket.on("fetch_response", (data) => {
 		const { userId } = data;
+		// console.log(`userId: ${userId}`)
 		const responseInterval = getResponseInterval(1000, 4000);
-		console.log(`userId: ${userId}`)
+		const randomSentenceByUser = getRandomSentenceByUser(userId)
+		// console.log(`randomSentenceByUser: ${randomSentenceByUser}`)
 		setTimeout(() => {
 			socket.emit("start_typing", { userId });
 
 			setTimeout(() => {
 				socket.emit("stop_typing", { userId });
 				socket.emit("fetch_response", {
-					response: getRandomSentenceByUser(userId),
+					response: randomSentenceByUser,
 					userId,
 				});
 			}, responseInterval);
